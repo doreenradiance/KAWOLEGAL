@@ -1,0 +1,199 @@
+.nav {
+	background: white;
+	border: none;
+	/* newly added */
+	margin-left:0vw ;
+	background-color: transparent;
+	padding: 0 10vw;
+	position: sticky;
+	top: 0;
+
+}
+
+.navv{
+	background-color: maroon;
+	border-radius:0px;
+	height: 100px;
+}
+
+/* newly added */
+.nav-nav {
+	background-color: transparent;
+	border-radius: 0px;
+} 
+
+.navbar-right {
+	margin-top: 4vh;
+
+}
+
+/* newly added */
+.navbar-default .navbar-nav > li > a {
+	background-color: transparent;
+	color: #d10c0c;
+	padding-top: 15px;
+}
+
+.active-page {
+	border: 2.5px solid #d10c0c;
+}
+
+.navbar-brand img {
+	height: 120px;
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+
+.main-background {
+	background-image: url('./IMAGES/polaromagnet-PIrouQ_A8j0-unsplash.jpg');
+	background-size: cover;
+
+}
+
+/* newly added */
+.mid-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 88vh;
+	color: white;
+	padding-top: 15vh;
+
+}
+
+.tit{
+   padding-top: 100px;
+   font-size: 3.1em;
+}
+
+.reg{
+	color: cornsilk;
+	text-align: center;
+	border: 1px dotted;
+	background-color: darkturquoise;
+	/* width: 150px;
+	height: 50px; */
+	outline: none;
+	border: none;
+	padding: 15px 27px;
+	border-radius: 5px;
+	font-size: 1.4em;
+}
+
+
+.web{
+	font-size: 2em
+}
+/* end of Home Page styles */
+
+/* ------ */
+
+.input1{
+	border: 1px solid rgb(224, 224, 224);
+	padding: 0 15px;
+	border-right:0px;
+	width: 100%;
+	margin-left: 100px;
+}
+
+.search-button{
+	padding-bottom: 2px;
+	margin: 0px;
+	background-color:#5bc0de;
+	width: 6vw;
+	height: 3.5vh;
+	border:0px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.image{
+	height:15vh; 
+	width:7vw;
+	margin-left: 19vw;
+}
+
+.row{
+	margin-bottom: 7vh;
+}
+.h3{
+	color: mediumturquoise;
+}
+
+
+/* ------ */
+
+
+
+/* \\\\ */
+.input{
+	width:60vw ;
+	padding-left: 20px;
+	border-radius: 3px;
+	border: 1px solid rgb(224, 224, 224);
+}
+
+.input-top{
+	padding-top: 4vh;
+}
+
+.label{
+	padding-top: 10px;
+}
+
+ 
+.sign-in{
+	background-color:darkturquoise;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 4px;
+}
+
+.form{
+	width: 100vw;
+	padding-left: 20vw;
+}
+
+.form2{
+	padding-left: 20vw;
+} 
+
+.form-text{
+	font-weight: bold;
+	padding-top: 1vw;
+} 
+
+.log--in{
+	padding-bottom: 13vh;
+	padding-top: 2vh;
+}
+
+.log-in{
+	padding-bottom: 38.2vh;
+	padding-top: 2vh;
+}
+/* \\\\ */
+
+
+
+footer{
+	color: white;
+	background-color: maroon;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10vw;
+	height: 7vh;
+
+}
+
+footer > * {
+	margin: auto 0
+}
+
+footer .social-media img {
+	margin: 0.5vw;
+	margin-top: 5px;
+}
+
+.social{
+	margin-right: 10px;
+	
+}
